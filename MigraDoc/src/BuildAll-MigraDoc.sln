@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!PDFsharp", "!PDFsharp", "{603BA43F-715B-471B-897B-871FD0EC35A8}"
 EndProject
@@ -33,6 +33,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc.RtfRendering-wpf", "MigraDoc.RtfRendering-wpf\MigraDoc.RtfRendering-wpf.csproj", "{00416AAB-3EEE-44A2-923B-86782560CE00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc.RtfRendering-gdi", "MigraDoc.RtfRendering-gdi\MigraDoc.RtfRendering-gdi.csproj", "{22010032-52DC-464D-B8BB-6CD9BF230D1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigraDoc.Tests", "MigraDoc.Tests\MigraDoc.Tests.csproj", "{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -258,6 +260,26 @@ Global
 		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|Win32.ActiveCfg = Release|Any CPU
 		{22010032-52DC-464D-B8BB-6CD9BF230D1F}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|Win32.Build.0 = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Debug|x86.Build.0 = Debug|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|ARM.Build.0 = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|Win32.ActiveCfg = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|Win32.Build.0 = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1EF5C20-7A61-4D9C-BE37-01E2F467E8FE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
