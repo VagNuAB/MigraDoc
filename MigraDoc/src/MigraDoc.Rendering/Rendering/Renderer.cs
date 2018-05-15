@@ -157,8 +157,10 @@ namespace MigraDoc.Rendering
                 renderer = new PageBreakRenderer(gfx, (PageBreak)documentObject, fieldInfos);
             else if (documentObject is TextFrame)
                 renderer = new TextFrameRenderer(gfx, (TextFrame)documentObject, fieldInfos);
+#if !NETSTANDARD2_0
             else if (documentObject is Chart)
                 renderer = new ChartRenderer(gfx, (Chart)documentObject, fieldInfos);
+#endif
             else if (documentObject is Image)
                 renderer = new ImageRenderer(gfx, (Image)documentObject, fieldInfos);
 
@@ -188,8 +190,10 @@ namespace MigraDoc.Rendering
                 renderer = new PageBreakRenderer(gfx, renderInfo, fieldInfos);
             else if (renderInfo.DocumentObject is TextFrame)
                 renderer = new TextFrameRenderer(gfx, renderInfo, fieldInfos);
+#if !NETSTANDARD2_0
             else if (renderInfo.DocumentObject is Chart)
                 renderer = new ChartRenderer(gfx, renderInfo, fieldInfos);
+#endif
             //else if (renderInfo.DocumentObject is Chart)
             //  renderer = new ChartRenderer(gfx, renderInfo, fieldInfos);
             else if (renderInfo.DocumentObject is Image)

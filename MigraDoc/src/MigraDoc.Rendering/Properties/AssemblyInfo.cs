@@ -30,6 +30,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using MigraDoc.Rendering;
 
+#if !NETSTANDARD2_0
 [assembly: AssemblyTitle(VersionInfo.Title)]
 [assembly: AssemblyDescription(VersionInfo.Description)]
 [assembly: AssemblyConfiguration("")]
@@ -43,7 +44,7 @@ using MigraDoc.Rendering;
 [assembly: AssemblyTrademark(VersionInfo.Trademark)]
 [assembly: AssemblyVersion(VersionInfo.Version)]
 [assembly: AssemblyCulture(VersionInfo.Culture)]
-
+#endif 
 [assembly: ComVisible(false)]
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyName("")]
